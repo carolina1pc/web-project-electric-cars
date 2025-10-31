@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111a19;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #03fffba1;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto 20px auto; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2em; /* Ajustează dimensiunea */
+    color: hsl(0, 0%, 100%);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px; /* Împinge subtitlul spre interior de la marginea din stânga */
+}
+
+.component {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.component {
+    background-color: rgba(1, 236, 244, 0.116);
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color:  #111a19;
+    padding: 20px;
+}

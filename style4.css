@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #111a19;
+}
+
+header {
+    background-color: #03fffba1;
+    color: #ffffff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 30px;
+}
+
+.bibliography-section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.bibliography-section {
+    background-color: rgba(1, 236, 244, 0.116);
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: #aaaaaa;
+}
+
+footer {
+    background-color:  #111a19;
+    padding: 20px;
+}
